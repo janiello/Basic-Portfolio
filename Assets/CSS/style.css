@@ -1,0 +1,45 @@
+body {
+    width: 960px;
+    box-align: center;
+}
+
+header {
+    background-color: #ffffff;
+}
+    h1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    }
+    .Contact {
+    float: right;
+    }
+    .Portfolio {
+    float: right;
+    }
+    .About {
+    float: right;
+    }
+
+.content {
+    width: 960px;
+    box-align: left;
+    margin: auto;
+}
+
+    .Me {
+        float: left;
+    }
+
+    p {
+        text-align: center;
+    }
+
+footer {
+    background-color: #666666;
+}
+
+    h6 {
+        text-align: center;
+        color: white;
+    }
