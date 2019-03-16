@@ -43,30 +43,35 @@ body {
         float: right;
     }
 .container {
-    background-color: green;
+    background-color: #4aaaa5;
 }
 .content {
     clear: both;
     border: 1px solid #dddddd;
     width: 960px;
     margin: 0 auto;
-    background-color: #ffffff
+    background-color: #ffffff;
+    color: #777777;
 }
 
 h2 {
     color: #4aaaa5;
+    padding-left: 15px;
 }
 
     #Me {
         height: 250px;
         width: 198px;
+        padding-top: 10px;
         padding-right: 15px;
-        padding-bottom: 15px;
+        padding-left: 15px;
         float: left;
     }
 
     p {
         text-align: justify;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
 footer {
