@@ -59,6 +59,17 @@ h2 {
     padding-left: 15px;
 }
 
+.work {
+    position: relative;
+    width: 274px;
+    overflow: auto;
+}
+.work img {
+    max-width: 100%;
+    border: 0 none;
+    height: 100px;
+}
+
     #Me {
         height: 250px;
         width: 198px;
