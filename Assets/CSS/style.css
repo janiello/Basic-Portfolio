@@ -4,13 +4,8 @@ body {
 
 .header {
     margin: 0 auto;
-    width: 100%;
-    background-color: #ffffff;
-}
-
-.header-container {
     width: 960px;
-    margin: 0 auto;
+    background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
 }
 
@@ -25,26 +20,31 @@ body {
         color: white;
         float: left;
     }
+
     .Contact {
         margin: 0;
         padding-top: 30px;
         padding-bottom: 30px;
         float: right;
     }
+
     .Portfolio {
         margin:0;
         padding: 30px;
         float: right;
     }
+
     .About {
         margin: 0;
         padding-top: 30px;
         padding-bottom: 30px;
         float: right;
     }
+
 .container {
     background-color: #4aaaa5;
 }
+
 .content {
     clear: both;
     border: 1px solid #dddddd;
@@ -64,26 +64,27 @@ h2 {
     width: 274px;
     overflow: auto;
 }
+
 .work img {
     max-width: 100%;
     border: 0 none;
     height: 100px;
 }
 
-    #Me {
-        height: 250px;
-        width: 198px;
-        padding-top: 10px;
-        padding-right: 15px;
-        padding-left: 15px;
-        float: left;
-    }
+#Me {
+    height: 250px;
+    width: 198px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
 
-    p {
-        text-align: justify;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
+p {
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 footer {
     position: fixed;
@@ -94,13 +95,7 @@ footer {
     background-color: #666666;
 }
 
-    h6 {
-        text-align: center;
-        color: white;
-    }
-
-.clearfix::after {
-    content: " ";
-    clear: both;
-    display: block;
+h6 {
+    text-align: center;
+    color: white;
 }
