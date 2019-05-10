@@ -7,32 +7,41 @@
         <link rel="stylesheet" href="Assets/CSS/style.css">
     </head>
     <body>
-        <header class="header col-lg">
-            <h1>Joe Aniello</h1>
-            <h4 class="Contact">Contact</h4>
-            <h4 class="Portfolio"><a href="portfolio.html">Portfolio</a></h4>
-            <h4 class="About clearfix"><a href="index.html">About</a></h4>
+        <header id="header col-lg">
+            <div class="container">
+                <h1><a href="index.html" id="logo">Joe Aniello</a></h1>
+                <nav>
+                    <h4 class="Contact"><a href="contact.html">Contact</a></h4>
+                    <h4 class="Portfolio"><a href="portfolio.html">Portfolio</a></h4>
+                    <h4 class="About"><a href="index.html">About</a></h4>
+                </nav>
+            </div>
         </header>
-        <main class="container">
+        <main id="main-container" class="container">
             <div class="content">
                 <h2>Contact</h2>
                 <hr>
-                <form>
-                    Name:<br>
-                    <input type="text" name="name">
-                    <br>
-                    Email:<br>
-                    <input type="text" name="email">
-                    <br>
-                    Message:<br>
-                    <textarea name="message"></textarea>
-                    <br><br>
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="email@example.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </main>
         <footer>
-            <h6>Copyright &copy;</h6>
+            <h6 class="container">Copyright &copy;</h6>
         </footer>
     </body>
 </html>
